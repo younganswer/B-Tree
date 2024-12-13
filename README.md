@@ -63,6 +63,10 @@ $ make [-jN] [all]
 $ ./b-tree
 ```
 
+### Inputs
+
+The program reads commands from the standard input. The instructions are as follows below.
+
 ### Instructions
 
 -   `i <key>`: Insert a key.
@@ -74,7 +78,7 @@ Each time an insert or delete command is executed, the tree is printed in an ino
 
 </br>
 
-## Supported Makefile rules
+## Supported Makefile Rules
 
 -   `all`: Build the project.
 -   `clean`: Remove all build files.
