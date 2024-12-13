@@ -7,7 +7,7 @@ C++ implementation of B-Tree.
 
 # Summary
 
-This project implements B-Tree similiar as the C++ `Standard Template Library` (STL). It supports iterators but does not support allocators and deallocators.
+This project implements B-Tree similiar as the C++ `Standard Template Library` (STL). It supports `iterators` but does not support allocators and deallocators.
 
 The tree structure is wrapped with a `set`. You can test the implementation using the provided `main.cpp` file.
 
@@ -67,6 +67,10 @@ $ ./b-tree
 
 -   `i <key>`: Insert a key.
 -   `d <key>`: Delete a key.
+
+### Outputs
+
+Each time an insert or delete command is executed, the tree is printed in an inorder traversal. Each node is enclosed in '<' and '>'.
 
 </br>
 
